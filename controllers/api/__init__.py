@@ -1,3 +1,4 @@
+import time
 from time import strftime
 
 from flask import request,jsonify,Flask,Blueprint,Flask,g
@@ -12,6 +13,7 @@ from common.libs.member.MemberService import MemberService
 from common.models.Card import Card
 from common.libs.UploadService import UploadService
 from common.libs.UrlManager import UrlManager
+import math
 
 
 import re
@@ -146,14 +148,48 @@ def noteIndex():
 
             current_data = (item.created_time).strftime("%Y-%m-%d %H:%M")
 
+            last_time  = (item.last_time).strftime("%Y-%m-%d %H:%M")
+            t_str=getCurrentDate()
+
+            d = datetime.datetime.strptime(t_str, '%Y-%m-%d %H:%M')
+
+            # t = time.asctime( time.localtime(time.time()) )
 
 
 
-            # if petime>=0:
-            #     pettime = "应在"+petime+"后复习"
-            # else:
-            #     petime = -petime
-            #     pettime = "应在"+petime+"前复习"
+            day_time = (item.last_time-d).days
+            if(day_time>=0):
+                if(day_time<=1):
+                    minute_time = math.floor(((item.last_time-d).seconds)/3600)
+                    if minute_time==0:
+                        minute_time=math.floor(((item.last_time-d).seconds)/60)
+                        preview_time="应在%s分钟后复习"%minute_time
+                    else:
+                        preview_time = "应在%s小时后复习" % minute_time
+                else:
+
+                    day_time=math.floor(day_time)
+                    preview_time = "应在%s天后复习"%day_time
+            else:
+                if (day_time >= -1):
+                    minute_time = math.floor(((d-item.last_time).seconds)/3600)
+                    preview_time = "应在%s小时前复习"%minute_time
+
+                    if minute_time == 0:
+                        minute_time = math.floor(((d-item.last_time ).seconds) / 60)
+                        preview_time = "应在%s分钟后复习" % minute_time
+                    else:
+                        preview_time = "应在%s小时后复习" % minute_time
+                else:
+                    day_time = math.floor((d-item.last_time).days)
+                    preview_time = "应在%s天后复习"%day_time
+
+
+
+
+
+
+
 
 
             tmp_data = {
@@ -161,7 +197,7 @@ def noteIndex():
 
                 'card_name': item.card_name,
                 'card_comment':item.study_status,
-                'peview_time':"应在今日复习",
+                'peview_time':preview_time,
                 'current_date':current_data
             }
             data_card_list.append(tmp_data)

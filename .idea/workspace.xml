@@ -434,35 +434,47 @@
     <SUITE FILE_PATH="coverage/memory_card$app.coverage" NAME="app Coverage Results" MODIFIED="1555857139636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/memory_card$base_setting.coverage" NAME="base_setting Coverage Results" MODIFIED="1555687434572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="memory_card" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/api/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="201" column="35" lean-forward="true" selection-start-line="201" selection-start-column="35" selection-end-line="201" selection-end-column="35" />
+            <state relative-caret-position="73">
+              <caret line="238" column="12" selection-start-line="238" selection-start-column="12" selection-end-line="238" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#819#2452#0" />
+                <element signature="e#2538#3446#0" />
+                <element signature="e#3526#6330#0" />
+                <element signature="e#9580#10185#0" />
+                <element signature="e#10265#11175#0" />
+                <element signature="e#11257#11537#0" />
+                <element signature="e#11615#12281#0" />
+                <element signature="e#12361#13622#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/_strptime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="172">
+              <caret line="509" selection-start-line="509" selection-end-line="509" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/tasks/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymysql/cursors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -480,8 +492,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs/tasks/queue/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1421">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="107" />
+            <state relative-caret-position="377">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="e#24#48#0" expanded="true" />
               </folding>
@@ -556,6 +568,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -572,7 +585,6 @@
         <option value="$PROJECT_DIR$/common/libs/UrlManager.py" />
         <option value="$PROJECT_DIR$/controllers/upload/upload.py" />
         <option value="$PROJECT_DIR$/common/libs/UploadService.py" />
-        <option value="$PROJECT_DIR$/config/DB.py" />
         <option value="$PROJECT_DIR$/common/libs/member/MemberService.py" />
         <option value="$PROJECT_DIR$/venv/manage.py" />
         <option value="$PROJECT_DIR$/venv/appS.py" />
@@ -588,15 +600,16 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/common/models/Card.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/config/DB.py" />
         <option value="$PROJECT_DIR$/controllers/api/__init__.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1555" />
-    <option name="height" value="840" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="397" />
+    <option name="y" value="318" />
+    <option name="width" value="1244" />
+    <option name="height" value="672" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -606,35 +619,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
               <item name="memory_card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
@@ -657,13 +647,6 @@
               <item name="memory_card" type="462c0819:PsiDirectoryNode" />
               <item name="jobs" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
-              <item name="memory_card" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="memory_card" type="b2602c69:ProjectViewProjectNode" />
@@ -695,12 +678,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/flask-blog-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -897,23 +881,29 @@
       <workItem from="1556160505740" duration="13959000" />
       <workItem from="1556209159643" duration="287000" />
       <workItem from="1556244229003" duration="222000" />
-      <workItem from="1556244718371" duration="2126000" />
+      <workItem from="1556244718371" duration="3886000" />
+      <workItem from="1556289251149" duration="1172000" />
+      <workItem from="1556336027325" duration="901000" />
+      <workItem from="1556341265731" duration="1291000" />
+      <workItem from="1556422178108" duration="5225000" />
+      <workItem from="1556447927577" duration="944000" />
+      <workItem from="1556449302845" duration="2968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133380000" />
+    <option name="totallyTimeSpent" value="147641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="397" y="318" width="1244" height="672" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.3766892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5017668" side_tool="true" visible="true" weight="0.3766892" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.90991473" visible="true" weight="0.40563992" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8902027" visible="true" weight="0.47397768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -921,8 +911,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.09008529" side_tool="true" visible="true" weight="0.40563992" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2559653" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1097973" side_tool="true" visible="true" weight="0.47397768" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.9301706" weight="0.4913232" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -935,23 +925,13 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/memory_card$app.coverage" NAME="app Coverage Results" MODIFIED="1556246993306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/memory_card$app.coverage" NAME="app Coverage Results" MODIFIED="1556455830690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/memory_card$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1556244483580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/memory_card$Flask__appf_py_.coverage" NAME="Flask (appf.py) Coverage Results" MODIFIED="1556244522826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/upload/test.jpg" />
-    <entry file="file://$PROJECT_DIR$/notebook/static/upload/20190416/5d873156752b4f8f9b7eb91210400657.jpeg" />
-    <entry file="file://$PROJECT_DIR$/static/upload/20190416/4823868bbdc34c3cb598e7f0a28d4303.png" />
     <entry file="file://$PROJECT_DIR$/static/upload/20190416/8c32bec952044526bc6a1d0cca7c26fa.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memory_card/pages/welcome/welcome.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/memory_card/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1109,16 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/DB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/api/getToken.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1154,6 +1124,40 @@
     <entry file="file://$PROJECT_DIR$/jobs/tasks/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46342">
+          <caret line="1624" selection-start-line="1624" selection-end-line="1624" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="4" column="127" selection-start-line="4" selection-start-column="127" selection-end-line="4" selection-end-column="127" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory_card/pages/welcome/welcome.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/Oauth_member_bind.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1166,8 +1170,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jobs/tasks/queue/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="107" />
+        <state relative-caret-position="377">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="e#24#48#0" expanded="true" />
           </folding>
@@ -1214,22 +1218,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/_strptime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="509" selection-start-line="509" selection-end-line="509" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="201" column="35" lean-forward="true" selection-start-line="201" selection-start-column="35" selection-end-line="201" selection-end-column="35" />
+        <state relative-caret-position="73">
+          <caret line="238" column="12" selection-start-line="238" selection-start-column="12" selection-end-line="238" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#819#2452#0" />
+            <element signature="e#2538#3446#0" />
+            <element signature="e#3526#6330#0" />
+            <element signature="e#9580#10185#0" />
+            <element signature="e#10265#11175#0" />
+            <element signature="e#11257#11537#0" />
+            <element signature="e#11615#12281#0" />
+            <element signature="e#12361#13622#0" />
           </folding>
         </state>
       </provider>

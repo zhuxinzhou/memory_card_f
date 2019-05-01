@@ -70,6 +70,7 @@ def login():
         model_bind.updated_time = model_bind.created_time = getCurrentDate()
         db.session.add(model_bind)
         db.session.commit()
+        db.session.close()
 
         bind_info = model_bind
 
@@ -341,6 +342,7 @@ def cardstudy():
 
     model_queue.created_time = getCurrentDate()
     db.session.commit()
+    db.session.close()
     return jsonify(resp)
 
 
@@ -353,6 +355,7 @@ def carddelete():
     card = Card.query.filter(Card.id == card_id).first()
     db.session.delete(card)
     db.session.commit()
+    db.session.close()
 
     return jsonify(resp)
 
@@ -412,6 +415,7 @@ def cardinset():
     db.session.add(model_card)
 
     db.session.commit()
+
     model_queue = QueueList()
     model_queue.queue_name = model_card.id
 
@@ -422,5 +426,7 @@ def cardinset():
     db.session.add(model_queue)
 
     db.session.commit()
+    db.session.close()
+
 
     return jsonify(resp)
